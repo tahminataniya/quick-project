@@ -1,0 +1,179 @@
+/*common start*/
+body{
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #0f2656;
+}
+/*common end*/
+/*header start*/
+header{
+	padding: 20px 0;
+	border-bottom: 3px solid #f0f2f4;
+}
+.container{
+	margin: 0 auto;
+	width: 90%;
+	
+	overflow: hidden;
+}
+.logo{
+	width: 10%;
+	float: left;
+}
+.logo a{
+
+}
+.logo a img{
+	    width: 100%;
+}
+.menu{
+	width: 50%;
+	float: right;
+}
+.menu ul{
+	    float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	    display: inline-block;
+	text-decoration: none;
+	padding: 0 25px;
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color:#0f2656 ;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+.menu ul li:hover a{
+	color: #008aff;
+}
+/*header end*/
+/*banner start*/
+.banner{
+	padding: 60px 0;
+}
+.container2{
+	margin: 0 auto;
+	width: 60%;
+	
+}
+.b_content{
+	text-align: center;
+}
+.b_content h1{
+	    margin: 0;
+     font-size: 60px;
+    line-height: 75px;
+
+}
+ .b_content span{
+	color: #008aff;
+}
+.b_content p{
+	margin: 10px o 20px;
+	line-height: 30px;
+	padding: 0 15px;
+}
+.b_img{
+	margin: 0 auto;
+	width: 75%;
+
+}
+.b_img img{
+	width: 100%;
+}
+/*banner end*/
+/*feature start*/
+.feature{
+	padding: 60px 0;
+}
+.f_content{
+	overflow: hidden;
+
+}
+.f_left{
+	text-align: right;
+     width: 45%; 
+     float: left;
+      padding: 0 0 0 28px;
+ }
+.f_left h2{
+	margin: 0;
+	font-size: 40px;
+	color: #f15767;
+}
+.f_left p{
+	line-height: 25px;
+	margin: 10px 0 0;
+}
+.f_right{
+	width: 45%;
+	float: right;
+	padding: 0 28px 0  0;
+}
+.f_right h1{
+	font-size: 45px;
+	margin: 0;
+}
+
+/*feature end*/
+/*service start*/
+.service{
+	padding: 50px 0;
+}
+.s_content{
+	overflow: hidden;
+	
+}
+.single_service{
+	margin-right: 2%;
+	float: left;
+	width: 28%;
+
+	padding: 50px 2%;
+}
+.single_service:last-child{
+	margin-right: 0;
+}
+.pink{
+	background-color: #fdebed ;
+}
+.green{
+	background-color: #ebf9f4;
+}
+.yellow{
+	background-color: #fff7e8;
+}
+.s_img{}
+.s_img img{
+	width: 100%;
+}
+.s_h2{
+    font-size: 23px;
+    margin: 20px 0;
+}
+.s_p{
+	  line-height: 20px;
+      margin: 0;
+}
+/*service end*/
+/*footer start*/
+footer{
+	padding: 45px 0;
+	background-color: #008aff;
+}
+.footer_content{}
+.footer_content p{
+	margin: 0;
+	text-align: center;
+}
+.footer_content p a{
+	font-weight: 700;
+}
+/*footer end*/
